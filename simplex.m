@@ -12,7 +12,7 @@ disp("Tenga en cuenta que el problema lineal debe estar en formato standard")
 disp("( [] ) y los valores deben estar separados por comas ( , )")
 disp("Ejemplo: [1,2,3,4,5]")
 disp("=======================================================================")
-indicesFo = input("Ingrese los indices para las variables de la funcion objetivo: ");
+A = input("Ingrese los indices para las variables de la funcion objetivo: ");
 c = input("Ingrese los coeficientes de la funcion objetivo: ");
 minMax = input("Escriba 'Min' para minimizar la funcion o 'Max' para maximizarla: ");
 minMax = Min
@@ -55,7 +55,7 @@ else
     c
     minMax
     optimal
-    result = iterar(A, Ib, In, b, c, minMax, optimal);
+    %result = iterar(A, Ib, In, b, c, minMax, optimal);
 
 end
 end
